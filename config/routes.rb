@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   # get "companies", :controller => "companies", :action => "index"
   # get "companies/:id", :controller => "companies", :action => "show"
   # get "companies/new", :controller => "companies", :action => "new"
+  # get "companies/", :controller => "companies", :action => "create"
   resources "contacts"
   resources "posts"
 end
